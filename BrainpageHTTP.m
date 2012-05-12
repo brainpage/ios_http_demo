@@ -7,7 +7,7 @@
 //
 
 #import "BrainpageHTTP.h"
-#define POST_URL    @"http://localhost:8080/v1/api/sensors/%@/data"
+#define POST_URL    @"http://sensocol.brainpage.com:8080/v1/api/sensors/%@/data"
 #define API_TOKEN   @"token"
 #define API_SECRET_KEY  @"secret"
 @implementation BrainpageHTTP
@@ -76,6 +76,7 @@
 
 - (void)connection:(NSURLConnection *)connection didReceiveData:(NSData *)data
 {
+    NSLog([[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding]);
 }
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error
