@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D327EB22155EB05800CEE112 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D327EB21155EB05800CEE112 /* UIKit.framework */; };
+		D327EB24155EB05800CEE112 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D327EB23155EB05800CEE112 /* Foundation.framework */; };
+		D327EB26155EB05800CEE112 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D327EB25155EB05800CEE112 /* CoreGraphics.framework */; };
+		D327EB2C155EB05800CEE112 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D327EB2A155EB05800CEE112 /* InfoPlist.strings */; };
+		D327EB2E155EB05800CEE112 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D327EB2D155EB05800CEE112 /* main.m */; };
+		D327EB32155EB05800CEE112 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D327EB31155EB05800CEE112 /* AppDelegate.m */; };
+		D327EB35155EB05800CEE112 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D327EB34155EB05800CEE112 /* ViewController.m */; };
+		D327EB38155EB05800CEE112 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D327EB36155EB05800CEE112 /* ViewController_iPhone.xib */; };
+		D327EB3B155EB05800CEE112 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D327EB39155EB05800CEE112 /* ViewController_iPad.xib */; };
+		D327EB43155EB05800CEE112 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D327EB42155EB05800CEE112 /* SenTestingKit.framework */; };
+		D327EB44155EB05800CEE112 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D327EB21155EB05800CEE112 /* UIKit.framework */; };
+		D327EB45155EB05800CEE112 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D327EB23155EB05800CEE112 /* Foundation.framework */; };
+		D327EB4D155EB05800CEE112 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D327EB4B155EB05800CEE112 /* InfoPlist.strings */; };
+		D327EB50155EB05800CEE112 /* HttpApiDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D327EB4F155EB05800CEE112 /* HttpApiDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D327EB46155EB05800CEE112 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D327EB14155EB05700CEE112 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D327EB1C155EB05700CEE112;
+			remoteInfo = HttpApiDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D327EB1D155EB05800CEE112 /* HttpApiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HttpApiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D327EB21155EB05800CEE112 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D327EB23155EB05800CEE112 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D327EB25155EB05800CEE112 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D327EB29155EB05800CEE112 /* HttpApiDemo-Info.plist */ = {isa = PBXFileReference; path = "HttpApiDemo-Info.plist"; sourceTree = "<group>"; };
+		D327EB2B155EB05800CEE112 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D327EB2D155EB05800CEE112 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D327EB2F155EB05800CEE112 /* HttpApiDemo-Prefix.pch */ = {isa = PBXFileReference; path = "HttpApiDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D327EB30155EB05800CEE112 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D327EB31155EB05800CEE112 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D327EB33155EB05800CEE112 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		D327EB34155EB05800CEE112 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D327EB37155EB05800CEE112 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		D327EB3A155EB05800CEE112 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		D327EB41155EB05800CEE112 /* HttpApiDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HttpApiDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D327EB42155EB05800CEE112 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D327EB4A155EB05800CEE112 /* HttpApiDemoTests-Info.plist */ = {isa = PBXFileReference; path = "HttpApiDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D327EB4C155EB05800CEE112 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D327EB4E155EB05800CEE112 /* HttpApiDemoTests.h */ = {isa = PBXFileReference; path = HttpApiDemoTests.h; sourceTree = "<group>"; };
+		D327EB4F155EB05800CEE112 /* HttpApiDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpApiDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D327EB1A155EB05700CEE112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D327EB22155EB05800CEE112 /* UIKit.framework in Frameworks */,
+				D327EB24155EB05800CEE112 /* Foundation.framework in Frameworks */,
+				D327EB26155EB05800CEE112 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D327EB3D155EB05800CEE112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D327EB43155EB05800CEE112 /* SenTestingKit.framework in Frameworks */,
+				D327EB44155EB05800CEE112 /* UIKit.framework in Frameworks */,
+				D327EB45155EB05800CEE112 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D327EB12155EB05700CEE112 = {
+			isa = PBXGroup;
+			children = (
+				D327EB27155EB05800CEE112 /* HttpApiDemo */,
+				D327EB48155EB05800CEE112 /* HttpApiDemoTests */,
+				D327EB20155EB05800CEE112 /* Frameworks */,
+				D327EB1E155EB05800CEE112 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D327EB1E155EB05800CEE112 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D327EB1D155EB05800CEE112 /* HttpApiDemo.app */,
+				D327EB41155EB05800CEE112 /* HttpApiDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D327EB20155EB05800CEE112 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D327EB21155EB05800CEE112 /* UIKit.framework */,
+				D327EB23155EB05800CEE112 /* Foundation.framework */,
+				D327EB25155EB05800CEE112 /* CoreGraphics.framework */,
+				D327EB42155EB05800CEE112 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D327EB27155EB05800CEE112 /* HttpApiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D327EB30155EB05800CEE112 /* AppDelegate.h */,
+				D327EB31155EB05800CEE112 /* AppDelegate.m */,
+				D327EB33155EB05800CEE112 /* ViewController.h */,
+				D327EB34155EB05800CEE112 /* ViewController.m */,
+				D327EB36155EB05800CEE112 /* ViewController_iPhone.xib */,
+				D327EB39155EB05800CEE112 /* ViewController_iPad.xib */,
+				D327EB28155EB05800CEE112 /* Supporting Files */,
+			);
+			path = HttpApiDemo;
+			sourceTree = "<group>";
+		};
+		D327EB28155EB05800CEE112 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D327EB29155EB05800CEE112 /* HttpApiDemo-Info.plist */,
+				D327EB2A155EB05800CEE112 /* InfoPlist.strings */,
+				D327EB2D155EB05800CEE112 /* main.m */,
+				D327EB2F155EB05800CEE112 /* HttpApiDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D327EB48155EB05800CEE112 /* HttpApiDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D327EB4E155EB05800CEE112 /* HttpApiDemoTests.h */,
+				D327EB4F155EB05800CEE112 /* HttpApiDemoTests.m */,
+				D327EB49155EB05800CEE112 /* Supporting Files */,
+			);
+			path = HttpApiDemoTests;
+			sourceTree = "<group>";
+		};
+		D327EB49155EB05800CEE112 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D327EB4A155EB05800CEE112 /* HttpApiDemoTests-Info.plist */,
+				D327EB4B155EB05800CEE112 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D327EB1C155EB05700CEE112 /* HttpApiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D327EB53155EB05800CEE112 /* Build configuration list for PBXNativeTarget "HttpApiDemo" */;
+			buildPhases = (
+				D327EB19155EB05700CEE112 /* Sources */,
+				D327EB1A155EB05700CEE112 /* Frameworks */,
+				D327EB1B155EB05700CEE112 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HttpApiDemo;
+			productName = HttpApiDemo;
+			productReference = D327EB1D155EB05800CEE112 /* HttpApiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D327EB40155EB05800CEE112 /* HttpApiDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D327EB56155EB05800CEE112 /* Build configuration list for PBXNativeTarget "HttpApiDemoTests" */;
+			buildPhases = (
+				D327EB3C155EB05800CEE112 /* Sources */,
+				D327EB3D155EB05800CEE112 /* Frameworks */,
+				D327EB3E155EB05800CEE112 /* Resources */,
+				D327EB3F155EB05800CEE112 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D327EB47155EB05800CEE112 /* PBXTargetDependency */,
+			);
+			name = HttpApiDemoTests;
+			productName = HttpApiDemoTests;
+			productReference = D327EB41155EB05800CEE112 /* HttpApiDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D327EB14155EB05700CEE112 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D327EB17155EB05700CEE112 /* Build configuration list for PBXProject "HttpApiDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D327EB12155EB05700CEE112;
+			productRefGroup = D327EB1E155EB05800CEE112 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D327EB1C155EB05700CEE112 /* HttpApiDemo */,
+				D327EB40155EB05800CEE112 /* HttpApiDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D327EB1B155EB05700CEE112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D327EB2C155EB05800CEE112 /* InfoPlist.strings in Resources */,
+				D327EB38155EB05800CEE112 /* ViewController_iPhone.xib in Resources */,
+				D327EB3B155EB05800CEE112 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D327EB3E155EB05800CEE112 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D327EB4D155EB05800CEE112 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D327EB3F155EB05800CEE112 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D327EB19155EB05700CEE112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D327EB2E155EB05800CEE112 /* main.m in Sources */,
+				D327EB32155EB05800CEE112 /* AppDelegate.m in Sources */,
+				D327EB35155EB05800CEE112 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D327EB3C155EB05800CEE112 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D327EB50155EB05800CEE112 /* HttpApiDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D327EB47155EB05800CEE112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D327EB1C155EB05700CEE112 /* HttpApiDemo */;
+			targetProxy = D327EB46155EB05800CEE112 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D327EB2A155EB05800CEE112 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D327EB2B155EB05800CEE112 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D327EB36155EB05800CEE112 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D327EB37155EB05800CEE112 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		D327EB39155EB05800CEE112 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D327EB3A155EB05800CEE112 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		D327EB4B155EB05800CEE112 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D327EB4C155EB05800CEE112 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D327EB51155EB05800CEE112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D327EB52155EB05800CEE112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D327EB54155EB05800CEE112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HttpApiDemo/HttpApiDemo-Prefix.pch";
+				INFOPLIST_FILE = "HttpApiDemo/HttpApiDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D327EB55155EB05800CEE112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HttpApiDemo/HttpApiDemo-Prefix.pch";
+				INFOPLIST_FILE = "HttpApiDemo/HttpApiDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D327EB57155EB05800CEE112 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HttpApiDemo.app/HttpApiDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HttpApiDemo/HttpApiDemo-Prefix.pch";
+				INFOPLIST_FILE = "HttpApiDemoTests/HttpApiDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D327EB58155EB05800CEE112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HttpApiDemo.app/HttpApiDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HttpApiDemo/HttpApiDemo-Prefix.pch";
+				INFOPLIST_FILE = "HttpApiDemoTests/HttpApiDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D327EB17155EB05700CEE112 /* Build configuration list for PBXProject "HttpApiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D327EB51155EB05800CEE112 /* Debug */,
+				D327EB52155EB05800CEE112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D327EB53155EB05800CEE112 /* Build configuration list for PBXNativeTarget "HttpApiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D327EB54155EB05800CEE112 /* Debug */,
+				D327EB55155EB05800CEE112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D327EB56155EB05800CEE112 /* Build configuration list for PBXNativeTarget "HttpApiDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D327EB57155EB05800CEE112 /* Debug */,
+				D327EB58155EB05800CEE112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D327EB14155EB05700CEE112 /* Project object */;
+}
