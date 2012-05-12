@@ -21,6 +21,7 @@
 		D327EB45155EB05800CEE112 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D327EB23155EB05800CEE112 /* Foundation.framework */; };
 		D327EB4D155EB05800CEE112 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D327EB4B155EB05800CEE112 /* InfoPlist.strings */; };
 		D327EB50155EB05800CEE112 /* HttpApiDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D327EB4F155EB05800CEE112 /* HttpApiDemoTests.m */; };
+		D327EB5E155EB55800CEE112 /* BrainpageHTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = D327EB5D155EB55800CEE112 /* BrainpageHTTP.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,22 +39,24 @@
 		D327EB21155EB05800CEE112 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D327EB23155EB05800CEE112 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D327EB25155EB05800CEE112 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D327EB29155EB05800CEE112 /* HttpApiDemo-Info.plist */ = {isa = PBXFileReference; path = "HttpApiDemo-Info.plist"; sourceTree = "<group>"; };
+		D327EB29155EB05800CEE112 /* HttpApiDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HttpApiDemo-Info.plist"; sourceTree = "<group>"; };
 		D327EB2B155EB05800CEE112 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D327EB2D155EB05800CEE112 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D327EB2F155EB05800CEE112 /* HttpApiDemo-Prefix.pch */ = {isa = PBXFileReference; path = "HttpApiDemo-Prefix.pch"; sourceTree = "<group>"; };
-		D327EB30155EB05800CEE112 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		D327EB2F155EB05800CEE112 /* HttpApiDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HttpApiDemo-Prefix.pch"; sourceTree = "<group>"; };
+		D327EB30155EB05800CEE112 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D327EB31155EB05800CEE112 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D327EB33155EB05800CEE112 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		D327EB33155EB05800CEE112 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D327EB34155EB05800CEE112 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D327EB37155EB05800CEE112 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		D327EB3A155EB05800CEE112 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		D327EB41155EB05800CEE112 /* HttpApiDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HttpApiDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D327EB42155EB05800CEE112 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		D327EB4A155EB05800CEE112 /* HttpApiDemoTests-Info.plist */ = {isa = PBXFileReference; path = "HttpApiDemoTests-Info.plist"; sourceTree = "<group>"; };
+		D327EB4A155EB05800CEE112 /* HttpApiDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HttpApiDemoTests-Info.plist"; sourceTree = "<group>"; };
 		D327EB4C155EB05800CEE112 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D327EB4E155EB05800CEE112 /* HttpApiDemoTests.h */ = {isa = PBXFileReference; path = HttpApiDemoTests.h; sourceTree = "<group>"; };
+		D327EB4E155EB05800CEE112 /* HttpApiDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpApiDemoTests.h; sourceTree = "<group>"; };
 		D327EB4F155EB05800CEE112 /* HttpApiDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpApiDemoTests.m; sourceTree = "<group>"; };
+		D327EB5C155EB55700CEE112 /* BrainpageHTTP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BrainpageHTTP.h; path = ../BrainpageHTTP.h; sourceTree = "<group>"; };
+		D327EB5D155EB55800CEE112 /* BrainpageHTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BrainpageHTTP.m; path = ../BrainpageHTTP.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 		D327EB27155EB05800CEE112 /* HttpApiDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D327EB5C155EB55700CEE112 /* BrainpageHTTP.h */,
+				D327EB5D155EB55800CEE112 /* BrainpageHTTP.m */,
 				D327EB30155EB05800CEE112 /* AppDelegate.h */,
 				D327EB31155EB05800CEE112 /* AppDelegate.m */,
 				D327EB33155EB05800CEE112 /* ViewController.h */,
@@ -264,6 +269,7 @@
 				D327EB2E155EB05800CEE112 /* main.m in Sources */,
 				D327EB32155EB05800CEE112 /* AppDelegate.m in Sources */,
 				D327EB35155EB05800CEE112 /* ViewController.m in Sources */,
+				D327EB5E155EB55800CEE112 /* BrainpageHTTP.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
